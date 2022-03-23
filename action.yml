@@ -1,0 +1,3 @@
+runs:
+  using: 'bash'
+  main: 'script.sh'
