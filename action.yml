@@ -1,3 +1,9 @@
+inputs:
+  arg-one:  # id of input
+    description: 'arg'
+    required: no
+    default: 'default-arg'
+
 runs:
-  using: 'bash'
-  main: 'script.sh'
+  using: 'node'
+  main: 'index.js'
